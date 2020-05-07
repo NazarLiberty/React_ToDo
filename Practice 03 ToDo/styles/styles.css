@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px 0px;
+  background-color: #555b6e;
+}
+
+.list {
+  background-color: #89b0ae;
+  width: 60vw;
+  margin-left: 20vw;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.list__section {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  min-width: 30px;
+  height: 30px;
+  background-color: #555b6e;
+  color: #ffd6ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  margin-left: 2px;
+}
+.button--add{
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.item {
+  background-color: #ffd6ba;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item__text {
+  font-size: 25px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 10px;
+}
+
+.item--done {
+  background-color: #bee3db;
+  color: #89b0ae;
+}
+
+.item--done .item__text {
+  text-decoration: line-through;
+}
+
+.item__input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 1px solid #faf9f9;
+  padding: 10px;
+  background-color: #faf9f9;
+  border-radius: 4px;
+  width: 90%;
+  font-size: 25px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
